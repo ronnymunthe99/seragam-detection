@@ -1,7 +1,7 @@
 # Core ML/DL
 torch==2.0.1+cpu
 torchvision==0.15.2+cpu
--f https://download.pytorch.org/whl/torch_stable.html
+--extra-index-url https://download.pytorch.org/whl/cpu
 ultralytics==8.0.203  # YOLOv8
 
 # Image Processing
@@ -16,8 +16,7 @@ requests==2.31.0
 # Utilities
 configparser==5.3.0
 urllib3==2.0.5
-tqdm==4.66.1  # Progress bars (used by YOLO)
+tqdm==4.66.1
 
-# Runtime optimizations
-psutil==5.9.5  # System monitoring
-protobuf==3.20.3  # Protocol buffers (required by YOLO)
+# Explicit pip version specification
+pip==24.0
