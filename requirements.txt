@@ -18,4 +18,4 @@ urllib3==2.2.1
 tqdm==4.66.2
 
 # Python version constraint (important!)
-python_version<3.13  # Streamlit doesn't fully support Python 3.13 yet
+python_version<3.11  # Streamlit doesn't fully support Python 3.13 yet
